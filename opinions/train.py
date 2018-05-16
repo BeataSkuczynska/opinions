@@ -11,6 +11,7 @@ from sklearn.model_selection import train_test_split
 
 from opinions.dataset import parse_data
 from opinions.model import create_model
+import opinions.config
 
 
 def load_embeddings(embeddings_path):
@@ -21,9 +22,9 @@ def load_embeddings(embeddings_path):
     return model
 
 
-def train(path, emb, max_len):
+def train(path, emb, max_len, config = opinions.config.params):
     sentences, sentiments, targets, max_len, word2index = parse_data(path, max_len)
-    emb = load_embeddings(emb)
+
     unk_count = 0
     vocab_size = len(word2index)
     index2vec = np.zeros((vocab_size + 1, emb.vector_size), dtype="float32")
@@ -53,15 +54,15 @@ def train(path, emb, max_len):
     targets_train = pad_sequences(targets_train, maxlen=max_len)
     padded_targets_test = pad_sequences(targets_test, maxlen=max_len)
 
-    model = create_model(index2vec, max_features=50, maxlen=max_len)
+    model = create_model(index2vec, max_features=50, maxlen=max_len, params = config)
     model.fit([parsed_train, sentiments_train], targets_train, batch_size=16, nb_epoch=30, validation_split=0.2,
-              verbose=1)
+              verbose=0)
 
-    loss, accuracy = model.evaluate([parsed_train, sentiments_train], targets_train, verbose=0)
-    print('Accuracy train: %f' % (accuracy * 100))
+    loss,  train_accuracy = model.evaluate([parsed_train, sentiments_train], targets_train, verbose=0)
+    print('Accuracy train: %f' % (train_accuracy * 100))
 
-    loss, accuracy = model.evaluate([parsed_test, sentiments_test], padded_targets_test, verbose=0)
-    print('Accuracy test: %f' % (accuracy * 100))
+    loss, test_accuracy = model.evaluate([parsed_test, sentiments_test], padded_targets_test, verbose=0)
+    print('Accuracy test: %f' % (test_accuracy * 100))
 
     predictions = np.around(model.predict([parsed_test, sentiments_test], verbose=0)).astype('int')
     unpad = []
@@ -71,13 +72,16 @@ def train(path, emb, max_len):
     flat_target = [i for x in targets_test for i in x]
     confusion_m = confusion_matrix(flat_target, flat_predictions)
     print(confusion_m)
+    return train_accuracy, test_accuracy, confusion_m
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Arguments for option NN training')
-    parser.add_argument('path', type=str, help='Data training path')
-    parser.add_argument('emb', type=str, help='Embedding file path')
-    parser.add_argument('max_len', type=int, help='Max sentence length')
-    args = parser.parse_args()
-    train(args.path, args.emb, args.max_len)
+    # parser = argparse.ArgumentParser(description='Arguments for option NN training')
+    # parser.add_argument('path', type=str, help='Data training path')
+    # parser.add_argument('emb', type=str, help='Embedding file path')
+    # parser.add_argument('max_len', type=int, help='Max sentence length')
+    # args = parser.parse_args()
+    # emb = load_embeddings(args.emb)
+    # train(args.path, emb, args.max_len)
 
+    train("json/OPTA-treebank-0.1.json",load_embeddings( "w2v_allwiki_nkjp300_50"), 20)
