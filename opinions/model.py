@@ -15,8 +15,8 @@ def create_model(embeddings, max_features, maxlen, params):
     lstm = Bidirectional(params['rnn'](output_dim=params['output_dim_rnn'], activation=params['activation_rnn'], return_sequences=True))(
         concat)
     dropout = Dropout(params['dropout'])(lstm)
-    dense = Dense(1, activation='sigmoid')(dropout)
-    out = Flatten()(dense)
+    out = Dense(3, activation='sigmoid')(dropout)
+    # out = Flatten()(dense)
 
     model = Model(inputs=[emb_input, sentiments_input], outputs=[out])
 
