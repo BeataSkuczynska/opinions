@@ -19,6 +19,7 @@ def parse_data(path, max_len):
         # max_len = max(max_len, len(sentence))
         idx = 0
         added = 0
+
         for x in sentence:
             if idx ==max_len:
                 break
@@ -28,7 +29,7 @@ def parse_data(path, max_len):
                 sentiment.append(1)
             else:
                 sentiment.append(0)
-            if y[-2] == 'T' or  y[-2] == 'A':
+            if y[-2] == 'T' or y[-2] == 'A':
                 added = 1
                 target.append(1)
             else:

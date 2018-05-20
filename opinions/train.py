@@ -22,7 +22,7 @@ def load_embeddings(embeddings_path):
     return model
 
 
-def train(path, emb, max_len, config = opinions.config.params):
+def train(path, emb, max_len, config=opinions.config.params):
     sentences, sentiments, targets, max_len, word2index = parse_data(path, max_len)
 
     unk_count = 0
@@ -84,4 +84,5 @@ if __name__ == "__main__":
     # emb = load_embeddings(args.emb)
     # train(args.path, emb, args.max_len)
 
-    train("json/OPTA-treebank-0.1.json",load_embeddings( "w2v_allwiki_nkjp300_50"), 20)
+    train("/home/komputerka/opinion_target/json/OPTA-treebank-0.1.json",
+          load_embeddings("/home/komputerka/opinion_target/w2v_allwiki_nkjp300_50"), 20)

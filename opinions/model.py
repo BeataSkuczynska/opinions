@@ -4,7 +4,6 @@ from keras.layers.core import Dense, Dropout
 from keras.layers.embeddings import Embedding
 
 
-
 def create_model(embeddings, max_features, maxlen, params):
     sentiments_input = Input(shape=(maxlen,), name='sentiments')
     sentiments = Reshape((maxlen, 1,))(sentiments_input)
