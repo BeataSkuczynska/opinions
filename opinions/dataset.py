@@ -2,12 +2,13 @@ import json
 from random import shuffle
 
 
-def parse_data(path, max_len):
+def parse_data(path):
     with open(path) as f:
         data = json.load(f)
     shuffle(data)
     word2index = dict()
     i = 0
+    max_len = 0
     parsed = []
     sentiments = []
     targets = []
@@ -16,7 +17,7 @@ def parse_data(path, max_len):
         new_sentence = []
         sentiment = []
         target = []
-        # max_len = max(max_len, len(sentence))
+        max_len = max(max_len, len(sentence))
         idx = 0
         added = 0
 
@@ -26,14 +27,14 @@ def parse_data(path, max_len):
             idx+=1
             y = x.split("\t")
             if y[-2] == 'S':
-                sentiment.append(1)
+                sentiment.append(2)
             else:
                 sentiment.append(0)
             if y[-2] == 'T' or y[-2] == 'A':
                 added = 1
-                target.append(1)
+                target.append(2)
             else:
-                target.append(0)
+                target.append(1)
             word = y[2]
 
             if word not in word2index:
