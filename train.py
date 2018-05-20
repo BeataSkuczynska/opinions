@@ -96,7 +96,7 @@ def train_eval(values, emb, config=opinions.config.params):
 
 
 def train(path, emb, config=opinions.config.params, vocab = None, max_len =None , index2vec = None):
-    values = prepare_data(path, emb, test = 0.2,  vocab =vocab,  max_len =max_len,   index2vec = index2vec)
+    values = prepare_data(path, emb, test = 0.1,  vocab =vocab,  max_len =max_len,   index2vec = index2vec)
     return train_eval(values, emb,config)
 
 
@@ -104,11 +104,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Arguments for option NN training')
     parser.add_argument('path', type=str, help='Data training path')
     parser.add_argument('emb', type=str, help='Embedding file path')
-    parser.add_argument('max_len', type=int, help='Max sentence length')
     args = parser.parse_args()
     emb = load_embeddings(args.emb)
-    train(args.path, emb, args.max_len)
-
-    train("train.conll", load_embeddings("w2v_allwiki_nkjp300_50"))
-    train("OPTA-treebank-skladnica/skladnica_output.json", load_embeddings("w2v_allwiki_nkjp300_50"))
-
+    train([args.path], emb, args.max_len)

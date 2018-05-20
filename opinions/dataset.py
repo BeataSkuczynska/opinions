@@ -22,6 +22,7 @@ def get_target(row, target, added):
 
 def parse_data(paths, vocab = None, max_len = None):
     raw = []
+    relevants = []
     for path in paths:
         corpus = []
         with open(path) as f:
@@ -39,7 +40,7 @@ def parse_data(paths, vocab = None, max_len = None):
                         sentence = []
             else:
                 raise Exception("Unknown file type")
-
+            relevants.extend(relevant)
             raw.extend(corpus)
     word2index = dict() if vocab is None else vocab
     i = 0
@@ -78,7 +79,4 @@ def parse_data(paths, vocab = None, max_len = None):
         max_len = max_len_count
     open("max_len", "w+").write(str(max_len))
 
-    return parsed, sentiments, targets, max_len, word2index, relevant
-
-if __name__ == "__main__":
-    parse_data(["json/OPTA-treebank-0.12.json","OPTA-treebank-skladnica/skladnica_output.json"])
+    return parsed, sentiments, targets, max_len, word2index, relevants

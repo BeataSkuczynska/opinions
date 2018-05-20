@@ -29,8 +29,11 @@ def count_f1(confusion_m):
 def evaluate():
     trainset = "json/OPTA-treebank-0.12.json"
     test = "OPTA-treebank-skladnica/skladnica_output.json"
+
+    # trainset = "train.json"
+    # test = "test.json"
     emb = load_embeddings("w2v_allwiki_nkjp300_50")
-    # prepare_data([trainset, test], emb )
+    prepare_data([trainset, test], emb )
     #
     max_len = int(open("max_len").read())
     with open("vocab.json", "r") as f:
