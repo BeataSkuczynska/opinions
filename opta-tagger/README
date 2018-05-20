@@ -1,0 +1,30 @@
+
+This package is an implementation of opinion target recognition method described in [1]. 
+It extracts opinion targets using a set of dependency patterns followed by a CRF sequence tagger.
+
+The package includes a default sentiment dictionary compiled from http://zil.ipipan.waw.pl/SlownikWydzwieku
+It can be easily replaced by a custom dictionary, by editing add_sentiment.py
+
+The software requires sentences in CONLL format, with morphosyntactic, POS and syntactic (dependency) layers
+as in multiservice (http://multiservice.nlp.ipipan.waw.pl/en/). Order of columns must match that of provided
+example (see input.conll file in input_data/conll-format/ and sentence.py).
+
+For installation instructions, see the the INSTALLATION file.
+
+Example usage:
+runme.sh       - run OPTA tagger, all processing steps
+train_model.sh - prepare a CRF model, by default using train_data contents
+
+Folders:
+train_data     - contains product review sentences used to train default CRF model
+resources      - dependency patterns used to identify candidates for opinion targets, default sentiment dictionary
+model          - contains the CRF model
+
+Python files:
+add_sentiment.py  - adds sentiment markup according to sentiment dictionary
+opta_patterns.py  - adds rule_id markup by applying dependency patterns for opinion target extraction
+
+BIBLIOGRAPHY
+[1] Aleksander Wawer. Towards Domain-Independent Opinion Target Extraction. 
+2015 IEEE 15th International Conference on Data Mining Workshops (SENTIRE 2015). 
+http://sentic.net/sentire/2015/wawer.pdf

@@ -1,0 +1,8 @@
+
+REQUIREMENTS
+1) Python 2.7 with pyparsing module
+
+2) CRFSuite [ http://www.chokkan.org/software/crfsuite/ ] 
+   - please provide correct location of the binary in runme.sh and train.sh
+
+

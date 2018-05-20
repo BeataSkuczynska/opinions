@@ -1,0 +1,973 @@
+(dp0
+I0
+(dp1
+S'path'
+p2
+S'[pos:adj] <conjunct [pos:conj] <pd [pos:fin] >adjunct [pos:prep] >comp [pos:subst]'
+p3
+ssI1
+(dp4
+g2
+S'[pos:adj] <obj [pos:fin] <conjunct [pos:interp] >conjunct [pos:subst]'
+p5
+ssI2
+(dp6
+g2
+S'[pos:adv] <adjunct [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p7
+ssI3
+(dp8
+g2
+S'[pos:subst] <pd [pos:pred] >subj [pos:subst] >adjunct [pos:subst]'
+p9
+ssI4
+(dp10
+g2
+S'[pos:adj] <conjunct [pos:interp] >conjunct [pos:subst] >adjunct [pos:subst]'
+p11
+ssI5
+(dp12
+g2
+S'[pos:pact] <conjunct [pos:conj] >conjunct [pos:subst]'
+p13
+ssI6
+(dp14
+g2
+S'[pos:adj] <app [pos:interp] <punct [pos:subst]'
+p15
+ssI7
+(dp16
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >comp_inf [pos:inf] >subj [pos:subst]'
+p17
+ssI8
+(dp18
+g2
+S'[pos:fin] >comp [pos:prep] >comp [pos:tnum] >conjunct [pos:subst]'
+p19
+ssI9
+(dp20
+g2
+S'[pos:fin] >comp [pos:subst] >app [pos:subst]'
+p21
+ssI10
+(dp22
+g2
+S'[pos:subst] <comp [pos:prep] <adjunct [pos:subst] >adjunct [pos:conj] >conjunct [pos:subst]'
+p23
+ssI11
+(dp24
+g2
+S'[pos:fin] <conjunct [pos:conj] <conjunct [pos:conj] <comp_fin [pos:fin] >subj [pos:subst]'
+p25
+ssI12
+(dp26
+g2
+S'[pos:adj] <pd [pos:fin] >subj [pos:subst]'
+p27
+ssI13
+(dp28
+g2
+S'[pos:xxx] <pd [pos:fin] >subj [pos:subst]'
+p29
+ssI14
+(dp30
+g2
+S'[pos:subst] <subj [pos:fin] >subj [pos:subst]'
+p31
+ssI15
+(dp32
+g2
+S'[pos:adj] <conjunct [pos:conj] <pd [pos:fin] <conjunct [pos:interp] >conjunct [pos:fin] >subj [pos:subst]'
+p33
+ssI16
+(dp34
+g2
+S'[pos:adj] <adjunct [pos:subst] <subj [pos:subst] <app [pos:subst] <conjunct [pos:conj] >conjunct [pos:subst]'
+p35
+ssI17
+(dp36
+g2
+S'[pos:xxx] <adjunct [pos:subst]'
+p37
+ssI18
+(dp38
+g2
+S'[pos:inf] <conjunct [pos:conj] <subj [pos:pred] <adjunct [pos:subst]'
+p39
+ssI19
+(dp40
+g2
+S'[pos:subst] <app [pos:subst]'
+p41
+ssI20
+(dp42
+g2
+S'[pos:fin] >subj [pos:conj] >conjunct [pos:subst]'
+p43
+ssI21
+(dp44
+g2
+S'[pos:ppas] <conjunct [pos:interp] >conjunct [pos:fin] >comp [pos:subst]'
+p45
+ssI22
+(dp46
+g2
+S'[pos:adj] <comp [pos:prep] <adjunct [pos:adj] <adjunct [pos:subst] <subj [pos:tnum] >comp [pos:prep] >comp [pos:subst]'
+p47
+ssI23
+(dp48
+g2
+S'[pos:adj] <conjunct [pos:interp] <adjunct [pos:subst]'
+p49
+ssI24
+(dp50
+g2
+S'[pos:adj] <conjunct [pos:interp] >conjunct [pos:prep] >comp [pos:subst]'
+p51
+ssI25
+(dp52
+g2
+S'[pos:adj] <conjunct [pos:conj] >adjunct [pos:prep] >comp [pos:subst]'
+p53
+ssI26
+(dp54
+g2
+S'[pos:fin] >comp [pos:prep] >comp [pos:subst] >adjunct [pos:subst]'
+p55
+ssI27
+(dp56
+g2
+S'[pos:adj] <adjunct [pos:ger] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p57
+ssI28
+(dp58
+g2
+S'[pos:praet] >adjunct [pos:praet] >subj [pos:subst]'
+p59
+ssI29
+(dp60
+g2
+S'[pos:subst] <obj [pos:pact] <adjunct [pos:subst]'
+p61
+ssI30
+(dp62
+g2
+S'[pos:adj] <adjunct [pos:subst] <comp [pos:prep] <adjunct [pos:subst]'
+p63
+ssI31
+(dp64
+g2
+S'[pos:xxx] >comp [pos:prep] >comp [pos:subst]'
+p65
+ssI32
+(dp66
+g2
+S'[pos:adj] <adjunct [pos:ger] <comp [pos:fin] >subj [pos:subst]'
+p67
+ssI33
+(dp68
+g2
+S'[pos:adj] <conjunct [pos:interp] <mwe [pos:adv] <mwe [pos:interp] <mwe [pos:adj] <adjunct [pos:subst]'
+p69
+ssI34
+(dp70
+g2
+S'[pos:adj] <conjunct [pos:conj] <conjunct [pos:interp] >conjunct [pos:fin] >subj [pos:subst]'
+p71
+ssI35
+(dp72
+g2
+S'[pos:pact] <conjunct [pos:conj] <comp_fin [pos:fin] >subj [pos:subst]'
+p73
+ssI36
+(dp74
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:prep] >comp [pos:subst]'
+p75
+ssI37
+(dp76
+g2
+S'[pos:fin] <conjunct [pos:conj] <adjunct [pos:subst]'
+p77
+ssI38
+(dp78
+g2
+S'[pos:adj] <conjunct [pos:interp] <punct [pos:subst] <comp [pos:prep] <adjunct [pos:pact] <conjunct [pos:interp] <adjunct [pos:subst]'
+p79
+ssI39
+(dp80
+g2
+S'[pos:fin] >subj [pos:subst] >app [pos:subst]'
+p81
+ssI40
+(dp82
+g2
+S'[pos:adv] <adjunct [pos:fin] >adjunct [pos:prep] >comp [pos:subst]'
+p83
+ssI41
+(dp84
+g2
+S'[pos:adj] <adjunct [pos:subst] <adjunct [pos:subst]'
+p85
+ssI42
+(dp86
+g2
+S'[pos:fin] >subj [pos:subst] >adjunct [pos:conj] >conjunct [pos:subst]'
+p87
+ssI43
+(dp88
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:interp] >conjunct [pos:fin] >subj [pos:subst]'
+p89
+ssI44
+(dp90
+g2
+S'[pos:subst] >adjunct [pos:prep] >punct [pos:interp] >conjunct [pos:subst]'
+p91
+ssI45
+(dp92
+g2
+S'[pos:pred] >comp_inf [pos:inf] >obj [pos:subst]'
+p93
+ssI46
+(dp94
+g2
+S'[pos:fin] <conjunct [pos:interp] >conjunct [pos:fin] >subj [pos:subst]'
+p95
+ssI47
+(dp96
+g2
+S'[pos:adj] <conjunct [pos:conj] <obj [pos:ppron12] <comp [pos:qub] <adjunct [pos:subst]'
+p97
+ssI48
+(dp98
+g2
+S'[pos:inf] <comp [pos:prep] <conjunct [pos:conj] >conjunct [pos:fin] >obj [pos:subst]'
+p99
+ssI49
+(dp100
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:siebie] >conjunct [pos:subst]'
+p101
+ssI50
+(dp102
+g2
+S'[pos:adj] <comp [pos:prep] <comp [pos:inf] <comp_inf [pos:fin] <conjunct [pos:conj] >conjunct [pos:subst]'
+p103
+ssI51
+(dp104
+g2
+S'[pos:fin] >adjunct [pos:prep] >comp [pos:tsym] >punct [pos:interp] >app [pos:subst]'
+p105
+ssI52
+(dp106
+g2
+S'[pos:praet] >adjunct [pos:prep] >comp [pos:subst]'
+p107
+ssI53
+(dp108
+g2
+S'[pos:pred] >comp_inf [pos:inf] >obj_th [pos:subst]'
+p109
+ssI54
+(dp110
+g2
+S'[pos:pact] <adjunct [pos:subst] >adjunct [pos:subst]'
+p111
+ssI55
+(dp112
+g2
+S'[pos:subst] >adjunct [pos:prep] >comp [pos:subst]'
+p113
+ssI56
+(dp114
+g2
+S'[pos:adj] <conjunct [pos:conj] <obj [pos:fin] >subj [pos:subst]'
+p115
+ssI57
+(dp116
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:prep] >adjunct [pos:ign] >obj [pos:subst] >adjunct [pos:prep] >comp [pos:subst]'
+p117
+ssI58
+(dp118
+g2
+S'[pos:praet] <conjunct [pos:conj] >conjunct [pos:prep] >comp [pos:subst]'
+p119
+ssI59
+(dp120
+g2
+S'[pos:adv] <adjunct [pos:inf] >adjunct [pos:prep] >comp [pos:subst]'
+p121
+ssI60
+(dp122
+g2
+S'[pos:adj] <pd [pos:fin] >subj [pos:subst] >app [pos:subst]'
+p123
+ssI61
+(dp124
+g2
+S'[pos:adj] <conjunct [pos:prep] <adjunct [pos:prep] >comp [pos:subst]'
+p125
+ssI62
+(dp126
+g2
+S'[pos:ppas] >adjunct [pos:prep] >comp [pos:subst]'
+p127
+ssI63
+(dp128
+g2
+S'[pos:adj] >adjunct [pos:prep] >comp [pos:subst]'
+p129
+ssI64
+(dp130
+g2
+S'[pos:adv] <adjunct [pos:fin] >comp [pos:subst]'
+p131
+ssI65
+(dp132
+g2
+S'[pos:subst] <pd [pos:fin] >subj [pos:subst]'
+p133
+ssI66
+(dp134
+g2
+S'[pos:adv] <adjunct [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >obj [pos:subst]'
+p135
+ssI67
+(dp136
+g2
+S'[pos:adv] <adjunct [pos:fin] >subj [pos:subst]'
+p137
+ssI68
+(dp138
+g2
+S'[pos:praet] <conjunct [pos:conj] >adjunct [pos:num] >comp [pos:subst]'
+p139
+ssI69
+(dp140
+g2
+S'[pos:adj] <adjunct [pos:subst] >adjunct [pos:subst] >adjunct [pos:subst]'
+p141
+ssI70
+(dp142
+g2
+S'[pos:adj] <subj [pos:fin] >aux [pos:fin] >adjunct [pos:subst]'
+p143
+ssI71
+(dp144
+g2
+S'[pos:adv] <adjunct [pos:fin] >obj [pos:subst]'
+p145
+ssI72
+(dp146
+g2
+S'[pos:ppas] <conjunct [pos:conj] <punct [pos:fin] >comp [pos:subst]'
+p147
+ssI73
+(dp148
+g2
+S'[pos:adj] <conjunct [pos:conj] <conjunct [pos:conj] >conjunct [pos:subst]'
+p149
+ssI74
+(dp150
+g2
+S'[pos:pact] <adjunct [pos:subst] <subj [pos:fin] >subj [pos:subst]'
+p151
+ssI75
+(dp152
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:praet] >comp_inf [pos:inf] >obj [pos:conj] >conjunct [pos:subst]'
+p153
+ssI76
+(dp154
+g2
+S'[pos:adj] <adjunct [pos:ger] >comp [pos:subst] >obj_th [pos:subst]'
+p155
+ssI77
+(dp156
+g2
+S'[pos:adj] <adjunct [pos:ger] >adjunct [pos:subst]'
+p157
+ssI78
+(dp158
+g2
+S'[pos:adj] <adjunct [pos:ger] >adjunct [pos:prep] >comp [pos:subst]'
+p159
+ssI79
+(dp160
+g2
+S'[pos:praet] >adjunct [pos:prep] >comp [pos:num] >comp [pos:subst]'
+p161
+ssI80
+(dp162
+g2
+S'[pos:fin] >comp_fin [pos:fin] >adjunct [pos:subst]'
+p163
+ssI81
+(dp164
+g2
+S'[pos:ppas] >comp [pos:prep] >comp [pos:subst]'
+p165
+ssI82
+(dp166
+g2
+S'[pos:praet] <conjunct [pos:conj] <adjunct [pos:subst] <adjunct [pos:subst] <adjunct [pos:subst]'
+p167
+ssI83
+(dp168
+g2
+S'[pos:adj] >adjunct [pos:prep] >comp [pos:subst] >adjunct [pos:subst]'
+p169
+ssI84
+(dp170
+g2
+S'[pos:subst] >adjunct [pos:ppron12] >comp [pos:prep] >comp [pos:subst]'
+p171
+ssI85
+(dp172
+g2
+S'[pos:pact] <adjunct [pos:subst] <app [pos:subst]'
+p173
+ssI86
+(dp174
+g2
+S'[pos:adj] <conjunct [pos:conj] <pd [pos:qub] <adjunct [pos:fin] >subj [pos:subst]'
+p175
+ssI87
+(dp176
+g2
+S'[pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p177
+ssI88
+(dp178
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p179
+ssI89
+(dp180
+g2
+S'[pos:adj] <adjunct [pos:subst] <obj [pos:fin] >subj [pos:subst]'
+p181
+ssI90
+(dp182
+g2
+S'[pos:praet] <conjunct [pos:conj] >conjunct [pos:subst]'
+p183
+ssI91
+(dp184
+g2
+S'[pos:subst] <conjunct [pos:conj] <adjunct [pos:subst]'
+p185
+ssI92
+(dp186
+g2
+S'[pos:adv] <adjunct [pos:fin] <conjunct [pos:interp] >conjunct [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p187
+ssI93
+(dp188
+g2
+S'[pos:inf] >comp [pos:prep] >comp [pos:subst]'
+p189
+ssI94
+(dp190
+g2
+S'[pos:fin] <subj [pos:fin] >obj_th [pos:subst]'
+p191
+ssI95
+(dp192
+g2
+S'[pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p193
+ssI96
+(dp194
+g2
+S'[pos:fin] >adjunct [pos:prep] >comp [pos:subst]'
+p195
+ssI97
+(dp196
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:pact] >comp [pos:prep] >comp [pos:conj] >conjunct [pos:subst] >app [pos:subst]'
+p197
+ssI98
+(dp198
+g2
+S'[pos:fin] <conjunct [pos:conj] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p199
+ssI99
+(dp200
+g2
+S'[pos:adj] >adjunct [pos:prep] >comp [pos:conj] >conjunct [pos:subst]'
+p201
+ssI100
+(dp202
+g2
+S'[pos:adj] <adjunct [pos:subst] <conjunct [pos:conj] >conjunct [pos:subst]'
+p203
+ssI101
+(dp204
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] <obj [pos:fin] >subj [pos:subst]'
+p205
+ssI102
+(dp206
+g2
+S'[pos:adj] <conjunct [pos:interp] <adjunct [pos:subst] >punct [pos:interp] >app [pos:subst]'
+p207
+ssI103
+(dp208
+g2
+S'[pos:adj] <adjunct [pos:subst] <conjunct [pos:conj] <subj [pos:fin] >subj [pos:subst]'
+p209
+ssI104
+(dp210
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:siebie] >comp [pos:subst]'
+p211
+ssI105
+(dp212
+g2
+S'[pos:pact] <adjunct [pos:subst]'
+p213
+ssI106
+(dp214
+g2
+S'[pos:adj] <conjunct [pos:conj] <pd [pos:fin] <comp_fin [pos:fin] >adjunct [pos:fin] >subj [pos:subst]'
+p215
+ssI107
+(dp216
+g2
+S'[pos:adv] <adjunct [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p217
+ssI108
+(dp218
+g2
+S'[pos:adj] <conjunct [pos:conj] <conjunct [pos:conj] <comp_fin [pos:praet] >subj [pos:subst]'
+p219
+ssI109
+(dp220
+g2
+S'[pos:adj] <adjunct [pos:subst] >adjunct [pos:subst]'
+p221
+ssI110
+(dp222
+g2
+S'[pos:praet] <conjunct [pos:conj] >conjunct [pos:conj] >conjunct [pos:praet] >obj [pos:subst]'
+p223
+ssI111
+(dp224
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p225
+ssI112
+(dp226
+g2
+S'[pos:praet] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p227
+ssI113
+(dp228
+g2
+S'[pos:adj] <conjunct [pos:interp] <comp [pos:prep] <adjunct [pos:subst]'
+p229
+ssI114
+(dp230
+g2
+S'[pos:adj] <pd [pos:fin] >comp_fin [pos:fin] >subj [pos:ger] >comp [pos:prep] >comp [pos:subst]'
+p231
+ssI115
+(dp232
+g2
+S'[pos:praet] <conjunct [pos:conj] >conjunct [pos:praet] >subj [pos:subst]'
+p233
+ssI116
+(dp234
+g2
+S'[pos:fin] >obj [pos:num] >comp [pos:subst]'
+p235
+ssI117
+(dp236
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:subst]'
+p237
+ssI118
+(dp238
+g2
+S'[pos:subst] <comp [pos:prep] <adjunct [pos:subst]'
+p239
+ssI119
+(dp240
+g2
+S'[pos:adj] <adjunct [pos:subst] <comp [pos:fin] >subj [pos:subst]'
+p241
+ssI120
+(dp242
+g2
+S'[pos:praet] <comp [pos:prep] <adjunct [pos:fin] <conjunct [pos:conj] >conjunct [pos:subst]'
+p243
+ssI121
+(dp244
+g2
+S'[pos:fin] >obj [pos:subst] >adjunct [pos:subst]'
+p245
+ssI122
+(dp246
+g2
+S'[pos:fin] >comp_inf [pos:inf] >obj [pos:subst]'
+p247
+ssI123
+(dp248
+g2
+S'[pos:adj] <conjunct [pos:conj] <comp [pos:prep] <adjunct [pos:subst]'
+p249
+ssI124
+(dp250
+g2
+S'[pos:subst] <comp [pos:adv] <adjunct [pos:num] >comp [pos:subst]'
+p251
+ssI125
+(dp252
+g2
+S'[pos:subst] <obj [pos:fin] >subj [pos:subst]'
+p253
+ssI126
+(dp254
+g2
+S'[pos:fin] <obj_th [pos:fin] >obj [pos:conj] >conjunct [pos:subst]'
+p255
+ssI127
+(dp256
+g2
+S'[pos:subst] <conjunct [pos:conj] <adjunct [pos:pact] >obj [pos:subst]'
+p257
+ssI128
+(dp258
+g2
+S'[pos:adj] <pd [pos:fin] >adjunct [pos:pcon] >comp [pos:prep] >comp [pos:subst]'
+p259
+ssI129
+(dp260
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >obj [pos:subst]'
+p261
+ssI130
+(dp262
+g2
+S'[pos:fin] >comp_fin [pos:fin] >adjunct [pos:prep] >comp [pos:conj] >conjunct [pos:subst]'
+p263
+ssI131
+(dp264
+g2
+S'[pos:adv] <adjunct [pos:ppas] <subj [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >obj [pos:subst]'
+p265
+ssI132
+(dp266
+g2
+S'[pos:adj] <adjunct [pos:subst] <comp [pos:prep] <comp [pos:fin] <conjunct [pos:conj] >conjunct [pos:subst]'
+p267
+ssI133
+(dp268
+g2
+S'[pos:adj] <adjunct [pos:subst] <subj [pos:pred] <conjunct [pos:conj] >conjunct [pos:qub] >adjunct [pos:prep] >comp [pos:subst]'
+p269
+ssI134
+(dp270
+g2
+S'[pos:adv] <comp [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >obj [pos:subst]'
+p271
+ssI135
+(dp272
+g2
+S'[pos:ppas] <conjunct [pos:conj] <comp [pos:prep] <comp [pos:fin] >subj [pos:subst]'
+p273
+ssI136
+(dp274
+g2
+S'[pos:fin] <adjunct [pos:subst]'
+p275
+ssI137
+(dp276
+g2
+S'[pos:adj] <adjunct [pos:subst] >app [pos:subst]'
+p277
+ssI138
+(dp278
+g2
+S'[pos:fin] <comp_inf [pos:fin] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p279
+ssI139
+(dp280
+g2
+S'[pos:ppas] <adjunct [pos:subst]'
+p281
+ssI140
+(dp282
+g2
+S'[pos:subst] <subj [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p283
+ssI141
+(dp284
+g2
+S'[pos:adj] <adjunct [pos:ger] <conjunct [pos:conj] >conjunct [pos:subst]'
+p285
+ssI142
+(dp286
+g2
+S'[pos:adv] <comp [pos:fin] >subj [pos:subst]'
+p287
+ssI143
+(dp288
+g2
+S'[pos:fin] <conjunct [pos:conj] >conjunct [pos:subst]'
+p289
+ssI144
+(dp290
+g2
+S'[pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p291
+ssI145
+(dp292
+g2
+S'[pos:subst] <comp [pos:prep] <adjunct [pos:praet] >subj [pos:subst]'
+p293
+ssI146
+(dp294
+g2
+S'[pos:ppas] <subj [pos:inf] <comp_inf [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p295
+ssI147
+(dp296
+g2
+S'[pos:adj] <adjunct [pos:ger] <adjunct [pos:subst]'
+p297
+ssI148
+(dp298
+g2
+S'[pos:adj] <subj [pos:fin] >obj [pos:subst]'
+p299
+ssI149
+(dp300
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:interp] >conjunct [pos:subst]'
+p301
+ssI150
+(dp302
+g2
+S'[pos:praet] >comp [pos:prep] >comp [pos:subst]'
+p303
+ssI151
+(dp304
+g2
+S'[pos:adj] <subj [pos:conj] >conjunct [pos:prep] >comp [pos:subst]'
+p305
+ssI152
+(dp306
+g2
+S'[pos:fin] <conjunct [pos:conj] >conjunct [pos:inf] >comp [pos:subst]'
+p307
+ssI153
+(dp308
+g2
+S'[pos:adv] <adjunct [pos:fin] >punct [pos:interp] >pred [pos:fin] >comp [pos:prep] >comp [pos:subst]'
+p309
+ssI154
+(dp310
+g2
+S'[pos:adj] <comp [pos:prep] <adjunct [pos:subst]'
+p311
+ssI155
+(dp312
+g2
+S'[pos:adj] <conjunct [pos:conj] <comp [pos:prep] <comp [pos:fin] >subj [pos:subst]'
+p313
+ssI156
+(dp314
+g2
+S'[pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:praet] >comp_inf [pos:inf] >comp [pos:subst]'
+p315
+ssI157
+(dp316
+g2
+S'[pos:fin] <adjunct [pos:conj] <adjunct [pos:subst]'
+p317
+ssI158
+(dp318
+g2
+S'[pos:adj] <conjunct [pos:conj] <pd [pos:fin] >subj [pos:subst]'
+p319
+ssI159
+(dp320
+g2
+S'[pos:subst] >adjunct [pos:conj] >conjunct [pos:subst]'
+p321
+ssI160
+(dp322
+g2
+S'[pos:adv] <adjunct [pos:ppas] <adjunct [pos:subst]'
+p323
+ssI161
+(dp324
+g2
+S'[pos:adj] <conjunct [pos:conj] <conjunct [pos:conj] <adjunct [pos:subst]'
+p325
+ssI162
+(dp326
+g2
+S'[pos:adj] <conjunct [pos:conj] <adjunct [pos:ppas] <subj [pos:fin] <adjunct [pos:subst]'
+p327
+ssI163
+(dp328
+g2
+S'[pos:pact] <adjunct [pos:subst] >adjunct [pos:prep] >comp [pos:subst]'
+p329
+ssI164
+(dp330
+g2
+S'[pos:adj] <conjunct [pos:conj] >conjunct [pos:praet] >comp_fin [pos:fin] >subj [pos:subst]'
+p331
+ssI165
+(dp332
+g2
+S'[pos:subst] <pd [pos:pred] >subj [pos:subst]'
+p333
+ssI166
+(dp334
+g2
+S'[pos:adj] <conjunct [pos:interp] <subj [pos:fin] <conjunct [pos:conj] >conjunct [pos:pred] >subj [pos:subst]'
+p335
+ssI167
+(dp336
+g2
+S'[pos:adj] <comp [pos:prep] <comp [pos:fin] <conjunct [pos:interp] >conjunct [pos:pred] >subj [pos:subst]'
+p337
+ssI168
+(dp338
+g2
+S'[pos:adj] <adjunct [pos:conj] >conjunct [pos:subst]'
+p339
+ssI169
+(dp340
+g2
+S'[pos:subst] <obj [pos:qub] <conjunct [pos:conj] >conjunct [pos:fin] >subj [pos:subst]'
+p341
+ssI170
+(dp342
+g2
+S'[pos:adj] <adjunct [pos:adj] <pd [pos:fin] <conjunct [pos:conj] >conjunct [pos:subst]'
+p343
+ssI171
+(dp344
+g2
+S'[pos:adj] <adjunct [pos:ger] >obj [pos:conj] >conjunct [pos:subst]'
+p345
+ssI172
+(dp346
+g2
+S'[pos:adj] <adjunct [pos:subst] <comp [pos:tsym] <adjunct [pos:subst]'
+p347
+ssI173
+(dp348
+g2
+S'[pos:fin] >pd [pos:conj] >conjunct [pos:subst]'
+p349
+ssI174
+(dp350
+g2
+S'[pos:ger] >obj [pos:conj] >conjunct [pos:subst]'
+p351
+ssI175
+(dp352
+g2
+S'[pos:adj] <conjunct [pos:interp] <adjunct [pos:subst] <adjunct [pos:subst]'
+p353
+ssI176
+(dp354
+g2
+S'[pos:adj] <conjunct [pos:conj] <adjunct [pos:pred] >comp_fin [pos:fin] >subj [pos:subst]'
+p355
+ssI177
+(dp356
+g2
+S'[pos:adv] <adjunct [pos:fin] >subj [pos:subst] >adjunct [pos:subst]'
+p357
+ssI178
+(dp358
+g2
+S'[pos:adj] <adjunct [pos:interp] >conjunct [pos:fin] >subj [pos:subst]'
+p359
+ssI179
+(dp360
+g2
+S'[pos:adj] <adjunct [pos:subst]'
+p361
+ssI180
+(dp362
+g2
+S'[pos:adj] <conjunct [pos:interp] >conjunct [pos:subst]'
+p363
+ssI181
+(dp364
+g2
+S'[pos:adj] <pd [pos:ger] <conjunct [pos:conj] <comp [pos:prep] <adjunct [pos:prep] <adjunct [pos:subst]'
+p365
+ssI182
+(dp366
+g2
+S'[pos:adj] <pd [pos:fin] <comp_fin [pos:fin] <conjunct [pos:interp] <comp [pos:fin] >obj [pos:subst]'
+p367
+ssI183
+(dp368
+g2
+S'[pos:adj] <adjunct [pos:subst] <adjunct [pos:subst] <obj [pos:praet] <conjunct [pos:conj] >conjunct [pos:subst]'
+p369
+ssI184
+(dp370
+g2
+S'[pos:fin] >adjunct [pos:prep] >comp [pos:tnum] >comp [pos:subst]'
+p371
+ssI185
+(dp372
+g2
+S'[pos:adj] <conjunct [pos:conj] <adjunct [pos:subst]'
+p373
+ssI186
+(dp374
+g2
+S'[pos:adj] <adjunct [pos:subst] >adjunct [pos:prep] >comp [pos:subst]'
+p375
+ssI187
+(dp376
+g2
+S'[pos:fin] >subj [pos:subst] >adjunct [pos:prep] >comp [pos:subst]'
+p377
+ssI188
+(dp378
+g2
+S'[pos:inf] >comp [pos:prep] >comp [pos:subst] >adjunct [pos:subst]'
+p379
+ssI189
+(dp380
+g2
+S'[pos:xxx] <adjunct [pos:fin] >obj [pos:subst]'
+p381
+ssI190
+(dp382
+g2
+S'[pos:ppas] <adjunct [pos:subst] <app [pos:subst]'
+p383
+ssI191
+(dp384
+g2
+S'[pos:subst] <subj [pos:pred] >adjunct [pos:subst]'
+p385
+ssI192
+(dp386
+g2
+S'[pos:adj] <conjunct [pos:interp] <punct [pos:subst]'
+p387
+ssI193
+(dp388
+g2
+S'[pos:subst] <adjunct [pos:subst]'
+p389
+ss.
