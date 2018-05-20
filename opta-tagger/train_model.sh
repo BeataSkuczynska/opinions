@@ -1,2 +1,2 @@
-cat train_data/conll-format/traintrain.conll | python2.7 crffeaturebuilder.py > train_data/crf-format/traintrain.crfsuite.txt
-crfsuite-0.12/bin/crfsuite learn -m models/opta.model train_data/crf-format/traintrain.crfsuite.txt
+cat train_data/conll-format/opta_train.conll | python2.7 crffeaturebuilder.py > train_data/crf-format/opta_train.crfsuite.txt
+crfsuite-0.12/bin/crfsuite learn -m models/opta.model train_data/crf-format/opta_train.crfsuite.txt

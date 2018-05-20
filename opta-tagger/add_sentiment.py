@@ -35,7 +35,7 @@ if __name__ == "__main__":
         with codecs.open(output_fname,'w','utf8') as fw:
             for line in fr:
                 if len(line)>3:
-                    toks = line.rstrip().split('\t')
+                    toks = line.rstrip().split(' ')
                     if toks[2] in auto_senti:  # toks[2] = lemma
                         toks.append('S')
                     else:

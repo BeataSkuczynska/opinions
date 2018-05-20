@@ -2,19 +2,7 @@ import argparse
 
 from sklearn.model_selection import train_test_split
 
-
-def get_data(path):
-    with open(path) as f:
-        parsed_all = []
-        parsed_sent = []
-        for line in f.readlines():
-            if len(line) > 2:
-                parsed_sent.append(line)
-            else:
-                parsed_all.append(parsed_sent)
-                parsed_sent = []
-    print (len(parsed_all))
-    return parsed_all
+from opinions.utils import get_conll
 
 
 def save_train_test_conlls(parsed_train, parsed_test):
@@ -39,6 +27,6 @@ if __name__ == "__main__":
     parser.add_argument('path', type=str, help='Path to train CONLL file')
     args = parser.parse_args()
 
-    parsed = get_data(args.path)
+    parsed = get_conll(args.path)
     parsed_train, parsed_test = train_test_split(parsed, test_size=0.1)
     save_train_test_conlls(parsed_train, parsed_test)
