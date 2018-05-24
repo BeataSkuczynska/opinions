@@ -1,6 +1,7 @@
 import json
 import pickle
 
+from keras.models import load_model
 from sklearn.metrics import confusion_matrix
 
 from opinions.rnn.dataset import parse_data
@@ -36,9 +37,9 @@ def evaluate(trainset, test, emb_file):
     with open("generated/vocab.json", "r") as f:
         vocab = json.load(f)
     index2vec = pickle.load(open("generated/embeddings.pkl", "rb"))
-    #
+
     model, _ = train([trainset], emb, vocab=vocab, max_len=max_len, index2vec=index2vec)
-    predict(test, emb, vocab, max_len, index2vec, model)
+    predict(test, emb, vocab, max_len, index2vec, load_model('generated/model.h5'))
 
     _, _, targets, _, _, _ = parse_data([test], vocab=vocab, max_len=max_len)
     gold = [i for x in targets for i in x]
@@ -58,4 +59,4 @@ def evaluate(trainset, test, emb_file):
 if __name__ == "__main__":
     emb_file = "w2v_allwiki_nkjpfull_300"
     print("Train on OPTA-treebank test on skladnica")
-    evaluate("input/OPTA-treebank/OPTA-treebank-0.1.json", "input/skladnica/skladnica_output.json", "w2v_allwiki_nkjp300_50")
+    evaluate("input/OPTA-treebank/OPTA-treebank-0.1.json", "input/skladnica/skladnica_output.json", emb_file)
