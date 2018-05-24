@@ -1,4 +1,5 @@
 import argparse
+import os
 
 from opinions.scripts.utils import load_json, save_conll
 
@@ -25,11 +26,13 @@ def format_data(data):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Arguments for CRF training')
-    parser.add_argument('path', help='Path to OPTA treebank in JSON format', type=str)
+    parser = argparse.ArgumentParser(
+        description='Convert .json file to conll and prepare it for training of opta-tagger')
+    parser.add_argument('input_path', help='Path to OPTA treebank in JSON format', type=str)
+    parser.add_argument('output_path', help='Path to directory to write conll file', type=str)
     args = parser.parse_args()
 
-    data = load_json(args.path)
+    data = load_json(args.input_path)
     formatted_sents = format_data(data)
-    save_conll(formatted_sents, "opta_train")
+    save_conll(formatted_sents, os.path.join(args.outputh_path, "opta_train"))
 

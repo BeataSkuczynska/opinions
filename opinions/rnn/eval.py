@@ -30,7 +30,7 @@ def count_f1(confusion_m):
 
 def evaluate(trainset, test, emb_file):
 
-    emb = load_embeddings( emb_file)
+    emb = load_embeddings(emb_file)
     prepare_data([trainset, test], emb)
 
     max_len = int(open("generated/max_len").read())

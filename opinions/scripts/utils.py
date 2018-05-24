@@ -22,8 +22,8 @@ def get_conll(path):
     return parsed_all
 
 
-def save_conll(formatted_sents, output_filename):
-    with open("resources/" + output_filename + ".conll", "w") as f:
+def save_conll(formatted_sents, output_path):
+    with open(output_path, "w") as f:
         for sentence in formatted_sents:
             for word in sentence:
                 f.write(word + "\n")
